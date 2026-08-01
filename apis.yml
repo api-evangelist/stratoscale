@@ -1,8 +1,27 @@
 aid: stratoscale
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stratoscale.png
 name: StratoScale
-description: StratoScale is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Stratoscale was an Israeli software-defined data center company founded in 2013 in Herzliya by Ariel
+  Maislos and backed by Battery Ventures, Bessemer Venture Partners, Intel Capital, Cisco, Qualcomm
+  Ventures and SanDisk ($70M raised). Its flagship product, Stratoscale Symphony (announced December
+  2015), delivered AWS-compatible cloud infrastructure on commodity x86 hardware — an API-driven,
+  hyperconverged platform exposing EC2-, S3-, EBS-, EFS-, RDS-, ELB- and EMR-compatible services plus
+  Kubernetes and Docker, alongside OpenStack and vCenter compatibility for hybrid and multi-cloud
+  operations. The company ceased operations at the end of 2019 due to insufficient funding; there is no
+  longer a live developer portal, documentation site, or reachable API surface. Its public GitHub
+  organization (open-source Go/go-swagger tooling) remains available.
 url: https://raw.githubusercontent.com/api-evangelist/stratoscale/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +29,35 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: Ceased operations end of 2019; primary domain stratoscale.com no longer resolves; no live API surface.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Cloud
+- Infrastructure
+- Hyperconverged
+- Data Center
+- AWS Compatible
+- OpenStack
+- Defunct
 apis: []
+common:
+- type: GitHubOrganization
+  url: https://github.com/Stratoscale
+  name: Stratoscale on GitHub
+- type: Wikipedia
+  url: https://en.wikipedia.org/wiki/Stratoscale
+  name: Stratoscale (Wikipedia)
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
