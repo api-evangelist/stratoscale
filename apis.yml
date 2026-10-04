@@ -50,7 +50,7 @@ tags:
 - Cloud
 - Infrastructure
 - Hyperconverged
-- Data-Center
+- Data Center
 - AWS Compatible
 - OpenStack
 - Defunct
@@ -63,6 +63,7 @@ tags_raw:
 - AWS Compatible
 - OpenStack
 - Defunct
+- Data-Center
 apis: []
 common:
 - type: GitHubOrganization
